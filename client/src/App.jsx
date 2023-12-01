@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import Projects from './Projects';
 import Skills from './Skills';
-import './App.css'; // Import the external CSS file
+import './App.css'; 
 
 const App = () => {
   return (
