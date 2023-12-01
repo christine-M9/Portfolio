@@ -3,10 +3,17 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div>
-      <h2>Skills</h2>
-      <p>These are some of the skills I possess:</p>
-      {/* Add your skills details here */}
+    <div className="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>JavaScript (React, Node.js)</li>
+        <li>Python</li>
+        <li>Flask</li>
+        <li>HTML5, CSS3</li>
+        <li>Git, GitHub</li>
+        <li>Database Management (SQL, PostgreSQL)</li>
+        {/* Add more skills as needed */}
+      </ul>
     </div>
   );
 };

@@ -3,10 +3,10 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div>
-      <h2>Projects</h2>
+    <div className="projects">
+      <h3>Projects</h3>
       <p>Here are some of the projects I've worked on:</p>
-      {/* Add your project details here */}
+      {/* Add my project details here */}
     </div>
   );
 };
