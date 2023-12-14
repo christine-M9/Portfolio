@@ -202,3 +202,49 @@ a:hover {
   line-height: 1.6; 
   margin-bottom: 20px;
 }
+
+.contact {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(12, 28, 12); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Light shadow for a card-like effect */
+  color: #333; /* Dark text color */
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact label {
+  font-size: 1.2em;
+  color: #3498db; /* Blue color for labels */
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #3498db; /* Blue border for input elements */
+  border-radius: 5px;
+}
+
+.contact textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact button {
+  background-color: #3498db; /* Blue background for the button */
+  color: white; /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact button:hover {
+  background-color: #2962a3; /* Darker blue on hover */
+}

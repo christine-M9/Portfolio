@@ -1,4 +1,4 @@
-// Home.js
+// Home.jsx
 import React from 'react';
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
           Explore my latest project, [Project Name], a [brief description].
           Visit the project on GitHub to see the code and its functionality.
         </p>
-        {/* Add links and details for the featured project */}
+       
       </div>
 
       <div className="technologies">
