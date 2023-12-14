@@ -153,6 +153,7 @@ a:hover {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   color: #fff; 
+  font-size: 1.3em;
 }
 
 .additional-info {
@@ -167,3 +168,37 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.scatter-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2em; 
+  color: #3498db; 
+  margin-bottom: 20px; 
+}
+
+.skill-item i {
+  margin-bottom: 10px;
+}
+
+.skills-description {
+  margin-top: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-description p {
+  font-size: 1.3em;
+  color: white; 
+  line-height: 1.6; 
+  margin-bottom: 20px;
+}

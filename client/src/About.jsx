@@ -7,7 +7,7 @@ const AboutMe = () => {
     <div className="about-me">
       <h3>About Me</h3>
       <p>
-        I specialize in building modern web applications using the latest technologies.
+        I specialize in building modern software applications using the latest technologies.
         With a strong foundation in JavaScript and front-end frameworks like React, database management and backend solutions using Python, PostgreSQL and backend-frameworks like Flask. I create
         efficient and scalable solutions.
       </p>
