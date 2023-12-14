@@ -50,7 +50,7 @@ const Skills = () => {
       </div>
       <div className="skills-description">
         <p>
-          I'm proficient in a variety of technologies, allowing me to create dynamic and responsive web applications. My skills range from front-end development using JavaScript and React to back-end technologies like Node.js, Python with Flask, and database management with SQL and PostgreSQL.
+          I'm proficient in a variety of technologies, allowing me to create dynamic and responsive applications. My skills range from front-end development using JavaScript and React to back-end technologies like Node.js, Python with Flask, and database management with SQL and PostgreSQL.
         </p>
         <p>
           I also have experience working with version control systems such as Git and GitHub. Whether it's designing user interfaces, implementing responsive layouts, or managing databases, I enjoy bringing ideas to life through clean and efficient code.

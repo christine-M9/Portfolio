@@ -12,7 +12,7 @@ const Home = () => {
       <div className="intro">
         <h3>Introduction</h3>
         <p>
-          I'm dedicated to creating innovative and user-friendly web applications. My expertise
+          I'm dedicated to creating innovative and user-friendly applications. My expertise
           lies in utilizing cutting-edge technologies to deliver robust and scalable solutions.
         </p>
       </div>
