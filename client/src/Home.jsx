@@ -20,8 +20,8 @@ const Home = () => {
       <div className="featured-project">
         <h3>Featured Project</h3>
         <p>
-          Explore my latest project, [Project Name], a [brief description].
-          Visit the project on GitHub to see the code and its functionality.
+          Explore my latest project.
+          Visit the project live or on GitHub to see the code and its functionality.
         </p>
        
       </div>

@@ -146,31 +146,7 @@ a:hover {
 }
 
 
-.about-me {
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: rgb(12, 28, 12); 
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
-  color: #fff; 
-  font-size: 1.3em;
-  background-color: rgba(12, 28, 12, 0.9);
-}
 
-.additional-info {
-  margin-top: 20px;
-  color: #ddd; 
-}
-
-.about-me h3 {
-  color: #3498db; /* Blue color for headings */
-  border-bottom: 2px solid #3498db;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
- 
-}
 
 .scatter-container {
   display: grid;
@@ -312,4 +288,32 @@ a:hover {
 .project-links a:hover {
   color: #fff;
   background-color: #3498db;
+}
+/* AboutMe.css */
+.about-me {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(12, 28, 12, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.about-me h3 {
+  color: #3498db;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.about-me p {
+  color: #ecf0f1;
+  line-height: 1.5; /* Improved line height for better readability */
+}
+
+.additional-info {
+  margin-top: 20px;
+  color: #ddd;
 }
