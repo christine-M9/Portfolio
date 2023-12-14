@@ -4,7 +4,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #130527;
+  background-color: rgba(12, 28, 12, 0.9);
   background-image: url('./images/photo-2.avif'); 
   background-size: cover;
   background-position: center;
@@ -17,17 +17,19 @@ body {
 }
 
 header {
-  background-color: rgb(12, 28, 12);
+  /* background-color: rgb(12, 28, 12); */
   color: rgb(241, 233, 233);
   text-align: center;
   padding: 1em;
+  background-color: rgba(12, 28, 12, 0.9);
 }
 
 nav {
   display: flex;
   justify-content: center;
-  background-color: rgb(12, 28, 12);
+  /* background-color: rgb(12, 28, 12); */
   padding: 0.5em;
+  background-color: rgba(12, 28, 12, 0.9);
 }
 
 .nav-link {
@@ -154,6 +156,7 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   color: #fff; 
   font-size: 1.3em;
+  background-color: rgba(12, 28, 12, 0.9);
 }
 
 .additional-info {
@@ -166,6 +169,7 @@ a:hover {
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
   margin-bottom: 20px;
+ 
 }
 
 .scatter-container {
@@ -208,7 +212,7 @@ a:hover {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: rgb(12, 28, 12); /* Semi-transparent white background */
+  background-color: rgba(12, 28, 12, 0.9);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Light shadow for a card-like effect */
   color: #333; /* Dark text color */
@@ -247,4 +251,65 @@ a:hover {
 
 .contact button:hover {
   background-color: #2962a3; /* Darker blue on hover */
+}
+
+/* Projects.css */
+.projects {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(12, 28, 12, 0.9);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.projects h3 {
+  color: #3498db;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-item {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.project-item h4 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #3498db;
+}
+
+.project-item p {
+  font-size: 1.2em;
+  color: #ecf0f1;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  text-align: left;
+}
+
+.project-links a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 8px 16px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+.project-links a:hover {
+  color: #fff;
+  background-color: #3498db;
 }
